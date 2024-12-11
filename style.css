@@ -1,4 +1,32 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  background-color: lightgray;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 50px 1fr 100px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  height: 50px;
+  background-color: greenyellow;
+}
+
+nav > div {
+  font-size: 20px;
+  margin: 10px;
+  //color: white;
+  align-items: center;
+}
+
+main {
+  background-color: green;
+}
+footer {
+  height: 100px;
+  background-color: greenyellow;
 }
