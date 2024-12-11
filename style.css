@@ -24,9 +24,15 @@ nav > div {
 }
 
 main {
+  margin: 5px;
+
   background-color: green;
 }
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   height: 100px;
   background-color: greenyellow;
 }
