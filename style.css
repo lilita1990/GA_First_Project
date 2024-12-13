@@ -8,6 +8,7 @@ body {
   grid-template-rows: 50px 1fr 100px;
 }
 nav {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -24,13 +25,13 @@ nav > div {
 }
 
 main {
-  margin: 5px;
+  margin: 10px;
 
   background-color: green;
 }
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   height: 100px;
