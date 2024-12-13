@@ -81,3 +81,8 @@ footer {
 .social-logo {
   height: 40px;
 }
+footer .Follow-us {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
